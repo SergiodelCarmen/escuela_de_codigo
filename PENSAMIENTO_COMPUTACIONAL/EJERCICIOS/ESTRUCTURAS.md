@@ -2,7 +2,97 @@
 ## REALIZAR LOS SIGUIENTES RETOS CON SU ALGORITMO Y DIAGRAMA DE FLUJO CORRESPONDIENTE CADA UNO 
 
 * Programa que pida un número y diga si es positivo o negativo
+
+ALGORITMO
+1. Inicio.
+2. Declarar(num)int
+3. Mostrar ("Ingresa un número")
+4. Asignar(numero)
+5. Si num<0
+      Mostrar("El número ", num, " es negativo")
+      SiNo
+      Si num>0
+          Mostrar("El número ", num, " es positivo")
+          SiNo
+          Si num==0
+             Mostrar("El número ", num, " es cero")
+          Fin Si
+      Fin Si
+   Fin Si
+6. Fin
+
+
+DIAGRAMA DE FLUJO
+
+![image](https://user-images.githubusercontent.com/104698382/167274353-efe64711-4715-4faf-86fa-327ddf9620de.png)
+
+
+PSEINT
+
+1. Algoritmo PositivoNegativo
+2.     num=0
+3.     Escribir "Ingresa un número"
+4.     Leer num
+5.     Si num<0 Entonces
+           Escribir "El número ", num, " es negativo"
+           SiNo
+           Si num>0 Entonces
+              Escribir "El número ", num, " es positivo"
+              SiNo
+                  Si num==0 Entonces
+                      Escribir "El número ", num, " es neutro"
+              FinSi
+          Fin Si
+       Fin Si
+6. FinAlgoritmo
+
+
+
 * Programa que solicite se ingrese una letra y sólo permita introducir los caracteres s y n.
+
+ALGORITMO
+1. Inicio.
+2. Declarar(letra)char
+3. Mostrar ("Ingresa una letra")
+4. Asignar(letra)
+5. Si letra=="s"
+      Mostrar("El caracter ingresado ", letra, " es correcto")
+      SiNo
+      Si letra=="n"
+          Mostrar("El caracter ingresado ", letra, " es correcto")
+          SiNo
+            Mostrar("El caracter que ingresaste ", letra, " no es correcto")
+      Fin Si
+   Fin Si
+6. Fin
+
+
+DIAGRAMA DE FLUJO
+
+![image](https://user-images.githubusercontent.com/104698382/167275031-9c858c65-3991-460b-98c9-3b3d348254e0.png)
+
+
+PSEINT
+
+1. Algoritmo PositivoNegativo
+2.     letra="0"
+3.     Escribir "Ingresa una letra"
+4.     Leer letra
+5.     Si letra=="s" Entonces
+           Escribir "El caracter ingresado ", letra, " es correcto."
+           SiNo
+           Si letra=="n" Entonces
+              Escribir "El caracter ingresado ", letra, " es correcto."
+              SiNo
+                  Escribir "El caracter que ingresaste ", letra, " no es correcto."
+          Fin Si
+       Fin Si
+6. FinAlgoritmo
+
+
+
+
+
 * Un programa que pida una letra y detecte si es una vocal. 
 * Programa que pida 3 números y los muestre en pantalla de menor a mayor.  
 * De un programa que pida un número del 1 al 12 y diga el nombre del mes correspondiente.
